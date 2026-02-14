@@ -1,7 +1,4 @@
-import { AlertBox } from './AlertBox'
-
 export function AuthCard({
-  alert,
   authMode,
   email,
   password,
@@ -14,7 +11,6 @@ export function AuthCard({
 }) {
   return (
     <main className="app-shell">
-      {alert ? <AlertBox alert={alert} /> : null}
       <section className="auth-card">
         <h1>{authMode === 'login' ? 'Expense Tracker' : 'Create Account'}</h1>
         <p>
