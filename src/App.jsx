@@ -186,7 +186,7 @@ export default function App() {
         return
       }
 
-      setFlash('success', 'Account created.', 1300)
+      setFlash('success', 'Account created. Verify your email to continue.', 2600)
       setPassword('')
       setConfirmPassword('')
       return
